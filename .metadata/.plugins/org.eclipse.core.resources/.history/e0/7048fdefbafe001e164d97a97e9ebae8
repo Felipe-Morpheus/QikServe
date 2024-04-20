@@ -1,0 +1,8 @@
+package com.projeto.sistemadepagamento.entities;
+
+public class Promocao {
+    private String id;
+    private String descricao;
+    private int descontoEmCentavos;
+    // getters e setters
+}

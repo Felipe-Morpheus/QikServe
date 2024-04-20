@@ -1,0 +1,12 @@
+package com.projeto.sistemadepagamento.repositories;
+
+import java.util.List;
+
+import com.projeto.sistemadepagamento.entities.Cliente;
+
+public interface ClienteRepository {
+    Cliente buscarPorId(String id);
+    List<Cliente> buscarTodos();
+    void salvar(Cliente cliente);
+    void excluir(String id);
+}

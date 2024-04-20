@@ -1,0 +1,5 @@
+package com.projeto.sistemadepagamento.entities;
+
+public class Cliente {
+
+}

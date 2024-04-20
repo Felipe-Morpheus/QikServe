@@ -1,0 +1,7 @@
+package com.projeto.sistemadepagamento.entities;
+
+public class ItemCarrinho {
+    private Produto produto;
+    private int quantidade;
+    // getters e setters
+}

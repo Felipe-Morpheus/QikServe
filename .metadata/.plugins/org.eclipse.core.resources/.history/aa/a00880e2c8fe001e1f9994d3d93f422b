@@ -1,0 +1,8 @@
+spring.application.name=SuperMercado
+
+stubrunner.ids[0]=com.example:seu-artefato:+:stubs:8080
+stubrunner.repositoryRoot=classpath:/stubs
+stubrunner.mappings-output-folder=src/test/resources/mappings
+stubrunner.stubs-mode=LOCAL
+
+logging.config=none

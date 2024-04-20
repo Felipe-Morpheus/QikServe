@@ -1,0 +1,17 @@
+package com.projeto.sistemadepagamento.config;
+
+public class ConfiguracaoWireMock {
+
+    private static WireMockServer wireMockServer;
+
+    @BeforeAll
+    public static void setUp() {
+        wireMockServer = new WireMockServer();
+        wireMockServer.start();
+    }
+
+    @AfterAll
+    public static void tearDown() {
+        wireMockServer.stop();
+    }
+}

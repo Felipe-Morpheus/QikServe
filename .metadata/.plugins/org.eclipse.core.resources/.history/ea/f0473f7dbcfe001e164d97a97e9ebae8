@@ -1,0 +1,5 @@
+package com.projeto.sistemadepagamento.services;
+
+public interface CarrinhoService {
+
+}
